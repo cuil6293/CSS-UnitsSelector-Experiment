@@ -1,0 +1,56 @@
+body {
+	font-family: Garamond;
+	margin: 5vw;
+	padding: 0px;
+	background-color: #ffa217;
+}
+
+.mainContainer {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+}
+
+#con {
+	font-size: 8vw;
+	color: #fff;
+	margin: 0vw;
+}
+
+.flexParent div{
+	background-color: #bbe394;
+	color: #fff;
+	border: 0.5vw double;
+	border-color: #fff;
+	margin: 0.5vw;
+	padding: 0.5vw;
+}
+
+.flexParent > div{
+	color: #bbe394;
+	background-color: #fff;
+	font-size: 2vw;
+}
+
+.flexParent div p:first-child{
+	color: #e35f59;
+}
+
+.flexParent p + p {
+	text-decoration: underline;
+}
+
+a, a:visited, a:active {
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffa217;
+}
+
+a:visited {
+  color: #fff;
+}
+
+a:hover {
+  color: #e35f59;
+}
